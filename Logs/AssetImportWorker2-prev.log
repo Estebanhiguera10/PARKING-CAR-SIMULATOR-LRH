@@ -1,0 +1,1033 @@
+Using pre-set license
+Built from '2022.3/staging' branch; Version is '2022.3.43f1 (85497d293fa1) revision 8735101'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 11  (10.0.22631) 64bit CoreSingleLanguage' Language: 'es' Physical Memory: 7502 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2022.3.43f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker2
+-projectPath
+C:/Users/esteb/OneDrive/Escritorio/PARKING CAR SIMULATOR LRH
+-logFile
+Logs/AssetImportWorker2.log
+-srvPort
+50947
+Successfully changed project path to: C:/Users/esteb/OneDrive/Escritorio/PARKING CAR SIMULATOR LRH
+C:/Users/esteb/OneDrive/Escritorio/PARKING CAR SIMULATOR LRH
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [12600]  Target information:
+
+Player connection [12600]  * "[IP] 192.168.1.8 [Port] 0 [Flags] 2 [Guid] 2943859536 [EditorId] 2943859536 [Version] 1048832 [Id] WindowsEditor(7,HIGUE10) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+
+Player connection [12600] Host joined multi-casting on [225.0.0.222:54997]...
+Player connection [12600] Host joined alternative multi-casting on [225.0.0.222:34997]...
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+Refreshing native plugins compatible for Editor in 36.86 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2022.3.43f1 (85497d293fa1)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2022.3.43f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/esteb/OneDrive/Escritorio/PARKING CAR SIMULATOR LRH/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: AMD Radeon(TM) Graphics (ID=0x164c)
+    Vendor:   ATI
+    VRAM:     3751 MB
+    Driver:   31.0.12044.3
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2022.3.43f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2022.3.43f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2022.3.43f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56624
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.43f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.43f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.034099 seconds.
+- Loaded All Assemblies, in  5.866 seconds
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Android Extension - Scanning For ADB Devices 716 ms
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.609 seconds
+Domain Reload Profiling: 7468ms
+	BeginReloadAssembly (5041ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (0ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (2ms)
+	RebuildCommonClasses (74ms)
+	RebuildNativeTypeToScriptingClass (22ms)
+	initialDomainReloadingComplete (159ms)
+	LoadAllAssembliesAndSetupDomain (562ms)
+		LoadAssemblies (5039ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (554ms)
+			TypeCache.Refresh (550ms)
+				TypeCache.ScanAssembly (515ms)
+			ScanForSourceGeneratedMonoScriptInfo (1ms)
+			ResolveRequiredComponents (1ms)
+	FinalizeReload (1610ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (1526ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (1138ms)
+			SetLoadedEditorAssemblies (10ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (10ms)
+			ProcessInitializeOnLoadAttributes (259ms)
+			ProcessInitializeOnLoadMethodAttributes (109ms)
+			AfterProcessingInitializeOnLoad (0ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (0ms)
+========================================================================
+Worker process is ready to serve import requests
+Caller must complete domain reload
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in 12.024 seconds
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Package Manager log level set to [2]
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.590 seconds
+Domain Reload Profiling: 13597ms
+	BeginReloadAssembly (479ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (12ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (48ms)
+	RebuildCommonClasses (92ms)
+	RebuildNativeTypeToScriptingClass (26ms)
+	initialDomainReloadingComplete (143ms)
+	LoadAllAssembliesAndSetupDomain (11267ms)
+		LoadAssemblies (11129ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (478ms)
+			TypeCache.Refresh (412ms)
+				TypeCache.ScanAssembly (367ms)
+			ScanForSourceGeneratedMonoScriptInfo (47ms)
+			ResolveRequiredComponents (15ms)
+	FinalizeReload (1591ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (1114ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (46ms)
+			SetLoadedEditorAssemblies (7ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (126ms)
+			ProcessInitializeOnLoadAttributes (876ms)
+			ProcessInitializeOnLoadMethodAttributes (36ms)
+			AfterProcessingInitializeOnLoad (21ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (14ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.09 seconds
+Refreshing native plugins compatible for Editor in 26.46 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3585 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 20 unused Assets / (27.2 KB). Loaded Objects now: 4085.
+Memory consumption went from 164.6 MB to 164.6 MB.
+Total: 11.072900 ms (FindLiveObjects: 0.646400 ms CreateObjectMapping: 0.268000 ms MarkObjects: 7.936400 ms  DeleteObjects: 2.219400 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 28139.141597 seconds.
+  path: Assets/BusParking2
+  artifactKey: Guid(441faa66741c6384e986b0351cba3702) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BusParking2 using Guid(441faa66741c6384e986b0351cba3702) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'c0901900526342ff90f3b44974380e2b') in 0.014245 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.000151 seconds.
+  path: Assets/BusParking2/Models/Bus Parking/floor
+  artifactKey: Guid(9343d77fe6c73a348a0f17c8a9e9cb55) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BusParking2/Models/Bus Parking/floor using Guid(9343d77fe6c73a348a0f17c8a9e9cb55) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'c98bbf55373451d6eacdb87b3ed0a8f4') in 0.002982 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.000118 seconds.
+  path: Assets/BusParking2/Models/Bus Parking/road/testtex.png
+  artifactKey: Guid(8c99598cf46316146a3905c9aa53e2ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BusParking2/Models/Bus Parking/road/testtex.png using Guid(8c99598cf46316146a3905c9aa53e2ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '54ffeb4dd011acee6ffd5e1fb6de3d6d') in 0.190493 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000042 seconds.
+  path: Assets/BusParking2/Models
+  artifactKey: Guid(d76187ac5e8104344aba03b18c1b165d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BusParking2/Models using Guid(d76187ac5e8104344aba03b18c1b165d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '7b0979be4c89a884b157087258c7a913') in 0.001535 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.000056 seconds.
+  path: Assets/BusParking2/Models/Bus Parking/road/test_tile000-normal.png
+  artifactKey: Guid(8e11d55af01807147b6eeeadac457c26) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BusParking2/Models/Bus Parking/road/test_tile000-normal.png using Guid(8e11d55af01807147b6eeeadac457c26) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'f6a8a1fa93c431506ccbd58255583388') in 0.107567 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000076 seconds.
+  path: Assets/BusParking2/Models/Bus Parking/road/road.fbx
+  artifactKey: Guid(81360d98391a2074da64ce6dd23d8e31) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BusParking2/Models/Bus Parking/road/road.fbx using Guid(81360d98391a2074da64ce6dd23d8e31) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '9a6ea3e74949a25d4552178fe1ff3dfc') in 0.716789 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 17
+========================================================================
+Received Import Request.
+  Time since last request: 0.000099 seconds.
+  path: Assets/BusParking2/Models/Bus Parking
+  artifactKey: Guid(29ee11b3643acd44ba247d860b8606ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BusParking2/Models/Bus Parking using Guid(29ee11b3643acd44ba247d860b8606ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '5af2a13c647bf854d726abf2eb32d03d') in 0.001790 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.000075 seconds.
+  path: Assets/BusParking2/Models/Bus Parking/road/ff.png
+  artifactKey: Guid(0af34b39fcefab248a99cc858f842a90) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BusParking2/Models/Bus Parking/road/ff.png using Guid(0af34b39fcefab248a99cc858f842a90) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '97f59ba13a0d7aae006427f0f2520b91') in 0.041780 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000060 seconds.
+  path: Assets/BusParking2/Models/Bus Parking/road/TexturesCom_Roads0124_16_M.png
+  artifactKey: Guid(b90da1ff5f676f548b994cfbac37a937) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BusParking2/Models/Bus Parking/road/TexturesCom_Roads0124_16_M.png using Guid(b90da1ff5f676f548b994cfbac37a937) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'd8d676ec8a89347e41f7766362ac237b') in 0.039998 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 14.675743 seconds.
+  path: Assets/BusParking2/Models/Bus Parking/Buildings
+  artifactKey: Guid(cdbf3f5a62eacd44786d54337f6bb617) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BusParking2/Models/Bus Parking/Buildings using Guid(cdbf3f5a62eacd44786d54337f6bb617) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'f8de619b4ce35da9cdd052c183e37a41') in 0.002489 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 2.041856 seconds.
+  path: Assets/BusParking2/Models/Bus Parking/Buildings/Building_2
+  artifactKey: Guid(d458c3fefd571634496ae22d2b3527bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BusParking2/Models/Bus Parking/Buildings/Building_2 using Guid(d458c3fefd571634496ae22d2b3527bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '14dfb009521a25a49a5be4a33c5df41f') in 0.001108 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.120340 seconds.
+  path: Assets/BusParking2/Models/Bus Parking/Buildings/Building_2/Building_2.dae
+  artifactKey: Guid(506ea72ee6cd0a24f87b0a29b0046dff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BusParking2/Models/Bus Parking/Buildings/Building_2/Building_2.dae using Guid(506ea72ee6cd0a24f87b0a29b0046dff) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '7fb041e766129cbd57a60815ab6bff06') in 0.420589 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 28.875459 seconds.
+  path: Assets/BusParking2/Models/Bus Parking/Buildings/Building_3
+  artifactKey: Guid(872b80112e50c1643822ac43c3411022) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BusParking2/Models/Bus Parking/Buildings/Building_3 using Guid(872b80112e50c1643822ac43c3411022) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '460df1d9be278bd5bbd8a4a0a3076929') in 0.001433 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.105279 seconds.
+  path: Assets/BusParking2/Models/Bus Parking/Buildings/Building_3/Building_3.dae
+  artifactKey: Guid(875e9b54f5b829b48a418cb8f61c14d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BusParking2/Models/Bus Parking/Buildings/Building_3/Building_3.dae using Guid(875e9b54f5b829b48a418cb8f61c14d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '5c369f340782d15da82df27ff367f731') in 0.090554 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 28.529514 seconds.
+  path: Assets/BusParking2/Models/Bus Parking/road/Materials
+  artifactKey: Guid(17c42c18d7aca334e8eb2c108d90c331) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BusParking2/Models/Bus Parking/road/Materials using Guid(17c42c18d7aca334e8eb2c108d90c331) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '197d3972af7de0d2476eb1cc72a8d590') in 0.001265 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.107373 seconds.
+  path: Assets/BusParking2/Models/Bus Parking/road/Materials/ff.mat
+  artifactKey: Guid(17e1644fc55a5bc43acf9b75af28caf0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BusParking2/Models/Bus Parking/road/Materials/ff.mat using Guid(17e1644fc55a5bc43acf9b75af28caf0) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'ee0036653f397f8cdba1177d79d0fffd') in 0.175580 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000059 seconds.
+  path: Assets/BusParking2/Models/Bus Parking/road/Materials/TexturesCom_FloorHerringbone0098_2_M.mat
+  artifactKey: Guid(bb4cdc9d2b498a7498a15f2af02d0db1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BusParking2/Models/Bus Parking/road/Materials/TexturesCom_FloorHerringbone0098_2_M.mat using Guid(bb4cdc9d2b498a7498a15f2af02d0db1) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '6c0ad2f20e59dd3b5e6a9a0a8f6a08c0') in 0.094228 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000094 seconds.
+  path: Assets/BusParking2/Models/Bus Parking/road/Materials/TexturesCom_Roads0124_16_M.mat
+  artifactKey: Guid(ab79128a6bad9ba498134812a6adba95) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BusParking2/Models/Bus Parking/road/Materials/TexturesCom_Roads0124_16_M.mat using Guid(ab79128a6bad9ba498134812a6adba95) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '0cf890f929d654f1b9a1dfc488755cc1') in 0.100112 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 10.955346 seconds.
+  path: Assets/BusParking2/Models/Bus Parking/floor/texture
+  artifactKey: Guid(9b1410cac49dc9a4cbea90e424362c6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BusParking2/Models/Bus Parking/floor/texture using Guid(9b1410cac49dc9a4cbea90e424362c6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '71a31e04d732b522a1338899a51c0ad8') in 0.001771 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.097581 seconds.
+  path: Assets/BusParking2/Models/Bus Parking/floor/texture/floordae_floor1_AlbedoTransparency.png
+  artifactKey: Guid(0ff5938e8e8f9e94a9ce62bef2e552cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BusParking2/Models/Bus Parking/floor/texture/floordae_floor1_AlbedoTransparency.png using Guid(0ff5938e8e8f9e94a9ce62bef2e552cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'e6ac9ea6c6a0c489bf13f512d8aa49d2') in 0.109347 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 2.955880 seconds.
+  path: Assets/BusParking2/Models/ParkedCars
+  artifactKey: Guid(d81b64e5578655041b51b2b29c6482d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BusParking2/Models/ParkedCars using Guid(d81b64e5578655041b51b2b29c6482d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'dc6805e65e9a5f68e1fa188c669a9ad3') in 0.001449 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.091314 seconds.
+  path: Assets/BusParking2/Models/ParkedCars/Car1.fbx
+  artifactKey: Guid(a7293850280b1144e92e4cd9aa0e0ca1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BusParking2/Models/ParkedCars/Car1.fbx using Guid(a7293850280b1144e92e4cd9aa0e0ca1) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'e38d1be1e69b9ec7bbb0b31de9a468a9') in 0.049573 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Prepare
+Caller must complete domain reload
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  1.091 seconds
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  3.996 seconds
+Domain Reload Profiling: 5080ms
+	BeginReloadAssembly (322ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (9ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (1ms)
+		CreateAndSetChildDomain (62ms)
+	RebuildCommonClasses (72ms)
+	RebuildNativeTypeToScriptingClass (28ms)
+	initialDomainReloadingComplete (82ms)
+	LoadAllAssembliesAndSetupDomain (579ms)
+		LoadAssemblies (729ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (33ms)
+			TypeCache.Refresh (14ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (16ms)
+	FinalizeReload (3997ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (1008ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (53ms)
+			SetLoadedEditorAssemblies (5ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (118ms)
+			ProcessInitializeOnLoadAttributes (776ms)
+			ProcessInitializeOnLoadMethodAttributes (35ms)
+			AfterProcessingInitializeOnLoad (21ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (9ms)
+Refreshing native plugins compatible for Editor in 15.17 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3531 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 14 unused Assets / (28.5 KB). Loaded Objects now: 4139.
+Memory consumption went from 157.2 MB to 157.2 MB.
+Total: 7.471600 ms (FindLiveObjects: 0.701300 ms CreateObjectMapping: 0.224400 ms MarkObjects: 6.441800 ms  DeleteObjects: 0.102200 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Caller must complete domain reload
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.871 seconds
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  2.747 seconds
+Domain Reload Profiling: 3608ms
+	BeginReloadAssembly (307ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (8ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (57ms)
+	RebuildCommonClasses (51ms)
+	RebuildNativeTypeToScriptingClass (16ms)
+	initialDomainReloadingComplete (58ms)
+	LoadAllAssembliesAndSetupDomain (427ms)
+		LoadAssemblies (582ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (26ms)
+			TypeCache.Refresh (12ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (12ms)
+	FinalizeReload (2749ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (1077ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (52ms)
+			SetLoadedEditorAssemblies (6ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (155ms)
+			ProcessInitializeOnLoadAttributes (792ms)
+			ProcessInitializeOnLoadMethodAttributes (50ms)
+			AfterProcessingInitializeOnLoad (22ms)
+			EditorAssembliesLoaded (1ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (14ms)
+Refreshing native plugins compatible for Editor in 14.18 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3532 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 14 unused Assets / (28.5 KB). Loaded Objects now: 4142.
+Memory consumption went from 157.5 MB to 157.5 MB.
+Total: 9.460300 ms (FindLiveObjects: 1.295800 ms CreateObjectMapping: 0.703100 ms MarkObjects: 7.290100 ms  DeleteObjects: 0.167700 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 379.902902 seconds.
+  path: Assets/BusParking2/Models/Bus Parking/platform
+  artifactKey: Guid(090be7aa13ea3bd4eb6903d3ef68a917) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BusParking2/Models/Bus Parking/platform using Guid(090be7aa13ea3bd4eb6903d3ef68a917) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'f0cbe6fe4722e90a0d2e7e71d4e2d867') in 0.005459 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.072646 seconds.
+  path: Assets/BusParking2/Models/Bus Parking/platform/platform.dae
+  artifactKey: Guid(f4177d02f2cf44d4e9b02571f265434b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BusParking2/Models/Bus Parking/platform/platform.dae using Guid(f4177d02f2cf44d4e9b02571f265434b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '96c8100a85ed8c660e6a9c645d9bfd0f') in 0.840140 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 14
+========================================================================
+Received Import Request.
+  Time since last request: 18.287937 seconds.
+  path: Assets/BusParking2/Models/Bus Parking/road/road.fbm
+  artifactKey: Guid(a4325917de8fa3940a77f1e0b6596184) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BusParking2/Models/Bus Parking/road/road.fbm using Guid(a4325917de8fa3940a77f1e0b6596184) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '1be519c32d549a4d591fe0f90b828358') in 0.001885 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.107289 seconds.
+  path: Assets/BusParking2/Models/Bus Parking/road/road.fbm/ff.png
+  artifactKey: Guid(7dcadaea319433d4694b0ee7e7759eb3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BusParking2/Models/Bus Parking/road/road.fbm/ff.png using Guid(7dcadaea319433d4694b0ee7e7759eb3) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '821fef808fdcc113d557fddaaea5c342') in 0.062363 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000109 seconds.
+  path: Assets/BusParking2/Models/Bus Parking/road/road.fbm/testtex.png
+  artifactKey: Guid(642ed2faea64fd841806d66232983fd6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BusParking2/Models/Bus Parking/road/road.fbm/testtex.png using Guid(642ed2faea64fd841806d66232983fd6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '77c6fe4987a3c5c491a7b306c8ae894d') in 0.022850 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000097 seconds.
+  path: Assets/BusParking2/Models/Bus Parking/road/road.fbm/TexturesCom_Roads0124_16_M.png
+  artifactKey: Guid(1cb4264bb77d8924c87f24443b42a440) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BusParking2/Models/Bus Parking/road/road.fbm/TexturesCom_Roads0124_16_M.png using Guid(1cb4264bb77d8924c87f24443b42a440) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'dd72eebcc105406cd28a168b44188369') in 0.075825 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000062 seconds.
+  path: Assets/BusParking2/Models/Bus Parking/road/road.fbm/TexturesCom_FloorHerringbone0098_2_M.png
+  artifactKey: Guid(39d852433027b8f46bbdf509f3628d55) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BusParking2/Models/Bus Parking/road/road.fbm/TexturesCom_FloorHerringbone0098_2_M.png using Guid(39d852433027b8f46bbdf509f3628d55) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'bfb8718c616fdf46207307d4139ae846') in 0.189147 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 6.192345 seconds.
+  path: Assets/BusParking2/Scripts
+  artifactKey: Guid(57a73c9cf67d52d4086371ad2f338dec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BusParking2/Scripts using Guid(57a73c9cf67d52d4086371ad2f338dec) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '80a4146a75d7afdff0d5e10af904ca9f') in 0.001733 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.073473 seconds.
+  path: Assets/BusParking2/Scripts/Lighting_Profile_Day_Bus.asset
+  artifactKey: Guid(6bef1b2f72c35ff419061d7798307d6b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BusParking2/Scripts/Lighting_Profile_Day_Bus.asset using Guid(6bef1b2f72c35ff419061d7798307d6b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '964ca1131e2e1f293538952a0a7c3093') in 0.003503 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 9.054734 seconds.
+  path: Assets/BusParking2/Scripts/CameraMove.cs
+  artifactKey: Guid(1068b4064f6b8cc45bd51224adac202a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BusParking2/Scripts/CameraMove.cs using Guid(1068b4064f6b8cc45bd51224adac202a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '260707c2c8c4c1d226ea108ea644be95') in 0.003756 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Prepare
+Caller must complete domain reload
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  1.296 seconds
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  4.286 seconds
+Domain Reload Profiling: 5572ms
+	BeginReloadAssembly (410ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (14ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (126ms)
+	RebuildCommonClasses (68ms)
+	RebuildNativeTypeToScriptingClass (22ms)
+	initialDomainReloadingComplete (65ms)
+	LoadAllAssembliesAndSetupDomain (720ms)
+		LoadAssemblies (882ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (20ms)
+			TypeCache.Refresh (8ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (10ms)
+	FinalizeReload (4288ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (1202ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (51ms)
+			SetLoadedEditorAssemblies (11ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (143ms)
+			ProcessInitializeOnLoadAttributes (919ms)
+			ProcessInitializeOnLoadMethodAttributes (53ms)
+			AfterProcessingInitializeOnLoad (24ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (15ms)
+Refreshing native plugins compatible for Editor in 20.02 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3531 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 14 unused Assets / (28.5 KB). Loaded Objects now: 4146.
+Memory consumption went from 157.3 MB to 157.2 MB.
+Total: 9.040000 ms (FindLiveObjects: 1.376900 ms CreateObjectMapping: 0.513400 ms MarkObjects: 6.994100 ms  DeleteObjects: 0.150700 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Caller must complete domain reload
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.904 seconds
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  3.096 seconds
+Domain Reload Profiling: 3994ms
+	BeginReloadAssembly (302ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (6ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (76ms)
+	RebuildCommonClasses (55ms)
+	RebuildNativeTypeToScriptingClass (16ms)
+	initialDomainReloadingComplete (55ms)
+	LoadAllAssembliesAndSetupDomain (469ms)
+		LoadAssemblies (599ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (29ms)
+			TypeCache.Refresh (10ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (15ms)
+	FinalizeReload (3097ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (1067ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (51ms)
+			SetLoadedEditorAssemblies (5ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (132ms)
+			ProcessInitializeOnLoadAttributes (811ms)
+			ProcessInitializeOnLoadMethodAttributes (43ms)
+			AfterProcessingInitializeOnLoad (25ms)
+			EditorAssembliesLoaded (1ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (13ms)
+Refreshing native plugins compatible for Editor in 17.85 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3532 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 14 unused Assets / (28.5 KB). Loaded Objects now: 4149.
+Memory consumption went from 157.5 MB to 157.5 MB.
+Total: 8.190300 ms (FindLiveObjects: 1.251600 ms CreateObjectMapping: 0.337800 ms MarkObjects: 6.457700 ms  DeleteObjects: 0.099500 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 104.445268 seconds.
+  path: Assets/BusParking2/Scripts/PauseMen.cs
+  artifactKey: Guid(54f4d62006337c148be9ce23ed49c06e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BusParking2/Scripts/PauseMen.cs using Guid(54f4d62006337c148be9ce23ed49c06e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '8d6074c1dae3ea3d35d3e3191da29b4d') in 0.004916 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 19.227475 seconds.
+  path: Assets/BusParking2/Sounds
+  artifactKey: Guid(17375c0b22509b6439a5ce3b450f75e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BusParking2/Sounds using Guid(17375c0b22509b6439a5ce3b450f75e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'cb0a5544fbaeb2e580b62fb6694c05cd') in 0.001139 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.117002 seconds.
+  path: Assets/BusParking2/Sounds/Car - Alarm1.mp3
+  artifactKey: Guid(69091227bfae2ad47b989e495d3f9869) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BusParking2/Sounds/Car - Alarm1.mp3 using Guid(69091227bfae2ad47b989e495d3f9869) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'e0892bb493efdefb5e9319f60dc8c0da') in 1.322760 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 48.274810 seconds.
+  path: Assets/BusParking2/Models/PlayerCars/SteeringWheel.fbx
+  artifactKey: Guid(42fc0409ad9e62d44a642a245e22bc67) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BusParking2/Models/PlayerCars/SteeringWheel.fbx using Guid(42fc0409ad9e62d44a642a245e22bc67) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '457e56f36f3705ee9849d1ba4147b792') in 0.157320 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 269.465276 seconds.
+  path: Assets/BusParking2/Models/Materials/lambert3.mat
+  artifactKey: Guid(1f9661a38bbf8b844874f74bd5ed7361) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BusParking2/Models/Materials/lambert3.mat using Guid(1f9661a38bbf8b844874f74bd5ed7361) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '5a528332171567011af674cff00d38af') in 0.141123 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000042 seconds.
+  path: Assets/BusParking2/Models/Materials/phong2.mat
+  artifactKey: Guid(a00b56f857080e1448bcc321f41ee117) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BusParking2/Models/Materials/phong2.mat using Guid(a00b56f857080e1448bcc321f41ee117) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '0655664c3cf55c57440d96672fdc006f') in 0.381229 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 23.469471 seconds.
+  path: Assets/BusParking2/Models/PlayerCars/Bus2/mh_613_Front.png
+  artifactKey: Guid(e6644768290845247bf6f4110fcfd560) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BusParking2/Models/PlayerCars/Bus2/mh_613_Front.png using Guid(e6644768290845247bf6f4110fcfd560) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '24bfc36744b4007378d80323ea180287') in 0.084727 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 2.099283 seconds.
+  path: Assets/BusParking2/Models/PlayerCars/Bus2/Materials/Bumper.mat
+  artifactKey: Guid(869e86ded5058dc48a81a540af2c8255) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BusParking2/Models/PlayerCars/Bus2/Materials/Bumper.mat using Guid(869e86ded5058dc48a81a540af2c8255) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '9ceb2b6afa2de7e21176331e809e6e21') in 0.057106 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000068 seconds.
+  path: Assets/BusParking2/Models/PlayerCars/Bus2/Materials/Metall_Black.mat
+  artifactKey: Guid(abb802debb2b3a04786ef13ce2a8a345) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BusParking2/Models/PlayerCars/Bus2/Materials/Metall_Black.mat using Guid(abb802debb2b3a04786ef13ce2a8a345) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'd31b602d13e846bc9ddf2ad68643ee2f') in 0.062801 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 5.743242 seconds.
+  path: Assets/BusParking2/Models/PlayerCars/Bus/Materials/Cauciuc2.mat
+  artifactKey: Guid(8aa09f639ea381949aabe669d4f0c209) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BusParking2/Models/PlayerCars/Bus/Materials/Cauciuc2.mat using Guid(8aa09f639ea381949aabe669d4f0c209) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '43a8d9450dd41bd0388580ff85766632') in 0.045009 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000056 seconds.
+  path: Assets/BusParking2/Models/PlayerCars/Bus/Materials/PBside2.mat
+  artifactKey: Guid(fc83a11695436784a9ddac38ab156b9a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BusParking2/Models/PlayerCars/Bus/Materials/PBside2.mat using Guid(fc83a11695436784a9ddac38ab156b9a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'd26566d17dd6f4a834dd63d8bc3c9e0c') in 0.247886 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000157 seconds.
+  path: Assets/BusParking2/Models/PlayerCars/Bus/Materials/PBface3.mat
+  artifactKey: Guid(1226fb378932546448dafd408dc03072) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BusParking2/Models/PlayerCars/Bus/Materials/PBface3.mat using Guid(1226fb378932546448dafd408dc03072) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '2c0b1d8232d456a1f59753bc0c969ff1') in 0.049925 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 12.485565 seconds.
+  path: Assets/BusParking2/Models/PlayerCars/Wheel/Logo.png
+  artifactKey: Guid(abdb9028ea8eb9d428ddd6d7bcdb1682) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BusParking2/Models/PlayerCars/Wheel/Logo.png using Guid(abdb9028ea8eb9d428ddd6d7bcdb1682) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '30160954de158e48f87a925b0ce77bc1') in 0.046191 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000065 seconds.
+  path: Assets/BusParking2/Models/PlayerCars/Wheel/WheelBack.fbx
+  artifactKey: Guid(a241d321fa7556442bd4cbd8d0cdb6be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BusParking2/Models/PlayerCars/Wheel/WheelBack.fbx using Guid(a241d321fa7556442bd4cbd8d0cdb6be) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'f65fb056b63d88aa40c2e2af6ac7f38a') in 0.221745 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 286.919767 seconds.
+  path: Assets/BusParking2/Prefabs/ParkingManager-Bus.prefab
+  artifactKey: Guid(a6a79ea9523501842b0d46bcc0088ae4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BusParking2/Prefabs/ParkingManager-Bus.prefab using Guid(a6a79ea9523501842b0d46bcc0088ae4) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '50ddda6b959dd5d1111474f77b98f97d') in 0.001831 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.000261 seconds.
+  path: Assets/BusParking2/Prefabs/Spawn Point.prefab
+  artifactKey: Guid(38a574fa618fffc409a902038df3ddaf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BusParking2/Prefabs/Spawn Point.prefab using Guid(38a574fa618fffc409a902038df3ddaf) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '24bdcc96c7208770636ef3b3728b259e') in 0.001522 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.000321 seconds.
+  path: Assets/BusParking2/Prefabs/Stars.prefab
+  artifactKey: Guid(6a78773ea37af5a4a8a397dd51a97a2c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BusParking2/Prefabs/Stars.prefab using Guid(6a78773ea37af5a4a8a397dd51a97a2c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '1ff61717608433120f31b329cbf978f0') in 0.001387 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.000356 seconds.
+  path: Assets/BusParking2/Prefabs/TimeDown.prefab
+  artifactKey: Guid(aa0761592690d0c48a76fef5c0ea7116) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BusParking2/Prefabs/TimeDown.prefab using Guid(aa0761592690d0c48a76fef5c0ea7116) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '69c49e5e2263bd37d23bbf890e11b475') in 0.001462 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 9.115419 seconds.
+  path: Assets/BusParking2/Prefabs/Parking/ParkingManager-Bus.prefab
+  artifactKey: Guid(917e20e1762de594f8f0f9f4a73d707b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BusParking2/Prefabs/Parking/ParkingManager-Bus.prefab using Guid(917e20e1762de594f8f0f9f4a73d707b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'f466120ac38e95b39e8607525dde9cd4') in 0.000886 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.000096 seconds.
+  path: Assets/BusParking2/Prefabs/Parking/ParkingManager-Truck.prefab
+  artifactKey: Guid(a967e3b94ba97184aa90d0acb4ee7210) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BusParking2/Prefabs/Parking/ParkingManager-Truck.prefab using Guid(a967e3b94ba97184aa90d0acb4ee7210) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'b40d723568726fb474f905a6fd964992') in 0.001195 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 1149.299573 seconds.
+  path: Assets/BusParking2/Sounds/Finish Effects/You_Win_Effect.wav
+  artifactKey: Guid(2b9de75ca5b9a0943ae8262f9604e33b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BusParking2/Sounds/Finish Effects/You_Win_Effect.wav using Guid(2b9de75ca5b9a0943ae8262f9604e33b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'a2b9e307f11db77c627d9837e8a932b7') in 0.174402 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Prepare
+Caller must complete domain reload
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  2.576 seconds
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  5.387 seconds
+Domain Reload Profiling: 7965ms
+	BeginReloadAssembly (1181ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (63ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (2ms)
+		CreateAndSetChildDomain (536ms)
+	RebuildCommonClasses (61ms)
+	RebuildNativeTypeToScriptingClass (19ms)
+	initialDomainReloadingComplete (71ms)
+	LoadAllAssembliesAndSetupDomain (1244ms)
+		LoadAssemblies (1517ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (46ms)
+			TypeCache.Refresh (21ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (1ms)
+			ResolveRequiredComponents (21ms)
+	FinalizeReload (5388ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (1244ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (65ms)
+			SetLoadedEditorAssemblies (13ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (174ms)
+			ProcessInitializeOnLoadAttributes (924ms)
+			ProcessInitializeOnLoadMethodAttributes (44ms)
+			AfterProcessingInitializeOnLoad (23ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (16ms)
+Refreshing native plugins compatible for Editor in 15.17 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3531 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 14 unused Assets / (28.5 KB). Loaded Objects now: 4156.
+Memory consumption went from 157.7 MB to 157.7 MB.
+Total: 9.221400 ms (FindLiveObjects: 0.782000 ms CreateObjectMapping: 0.381600 ms MarkObjects: 7.933600 ms  DeleteObjects: 0.121700 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 

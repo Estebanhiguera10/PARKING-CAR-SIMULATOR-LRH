@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="utf-8"?>
+<COLLADA xmlns="http://www.collada.org/2005/11/COLLADASchema" version="1.4.1">
+  <asset><contributor><author></author><authoring_tool>FBX COLLADA exporter</authoring_tool><comments></comments></contributor><created>2017-12-06T07:54:28Z</created><keywords></keywords><modified>2017-12-06T07:54:28Z</modified><revision></revision><subject></subject><title></title><unit meter="0.010000" name="centimeter"></unit><up_axis>Y_UP</up_axis></asset>
+  <library_materials>
+    <material id="wall1" name="wall1">
+      <instance_effect url="#wall1-fx"/>
+    </material>
+    <material id="bady" name="bady">
+      <instance_effect url="#bady-fx"/>
+    </material>
+  </library_materials>
+  <library_effects>
+    <effect id="wall1-fx" name="wall1">
+      <profile_COMMON>
+        <technique sid="standard">
+          <lambert>
+            <emission>
+              <color sid="emission">0.000000  0.000000 0.000000 1.000000</color>
+            </emission>
+            <ambient>
+              <color sid="ambient">0.000000  0.000000 0.000000 1.000000</color>
+            </ambient>
+            <diffuse>
+              <color sid="diffuse">0.000000  0.800000 0.000000 1.000000</color>
+            </diffuse>
+            <transparent opaque="RGB_ZERO">
+              <color sid="transparent">0.000000  0.000000 0.000000 1.000000</color>
+            </transparent>
+            <transparency>
+              <float sid="transparency">1.000000</float>
+            </transparency>
+          </lambert>
+        </technique>
+      </profile_COMMON>
+    </effect>
+    <effect id="bady-fx" name="bady">
+      <profile_COMMON>
+        <technique sid="standard">
+          <lambert>
+            <emission>
+              <color sid="emission">0.000000  0.000000 0.000000 1.000000</color>
+            </emission>
+            <ambient>
+              <color sid="ambient">0.000000  0.000000 0.000000 1.000000</color>
+            </ambient>
+            <diffuse>
+              <color sid="diffuse">0.800000  0.000000 0.000000 1.000000</color>
+            </diffuse>
+            <transparent opaque="RGB_ZERO">
+              <color sid="transparent">0.000000  0.000000 0.000000 1.000000</color>
+            </transparent>
+            <transparency>
+              <float sid="transparency">1.000000</float>
+            </transparency>
+          </lambert>
+        </technique>
+      </profile_COMMON>
+    </effect>
+  </library_effects>
+  <library_geometries>
+    <geometry id="wall-lib" name="wallMesh">
+      <mesh>
+        <source id="wall-POSITION">
+          <float_array id="wall-POSITION-array" count="24">
+-149.546753 -1.865532 0.153075
+105.866806 -1.865532 0.153075
+-149.546753 1.865532 0.153075
+105.866806 1.865532 0.153075
+-149.546753 1.865532 -0.153075
+105.866806 1.865532 -0.153075
+-149.546753 -1.865532 -0.153075
+105.866806 -1.865532 -0.153075
+</float_array>
+          <technique_common>
+            <accessor source="#wall-POSITION-array" count="8" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="wall-Normal0">
+          <float_array id="wall-Normal0-array" count="108">
+0.000000 0.000000 1.000000
+0.000000 0.000000 1.000000
+0.000000 0.000000 1.000000
+0.000000 0.000000 1.000000
+0.000000 0.000000 1.000000
+0.000000 0.000000 1.000000
+0.000000 1.000000 0.000000
+0.000000 1.000000 0.000000
+0.000000 1.000000 0.000000
+0.000000 1.000000 0.000000
+0.000000 1.000000 0.000000
+0.000000 1.000000 0.000000
+0.000000 0.000000 -1.000000
+0.000000 0.000000 -1.000000
+0.000000 0.000000 -1.000000
+0.000000 0.000000 -1.000000
+0.000000 0.000000 -1.000000
+0.000000 0.000000 -1.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+1.000000 0.000000 0.000000
+1.000000 0.000000 0.000000
+1.000000 0.000000 0.000000
+1.000000 0.000000 0.000000
+1.000000 0.000000 0.000000
+1.000000 0.000000 0.000000
+-1.000000 0.000000 0.000000
+-1.000000 0.000000 0.000000
+-1.000000 0.000000 0.000000
+-1.000000 0.000000 0.000000
+-1.000000 0.000000 0.000000
+-1.000000 0.000000 0.000000
+</float_array>
+          <technique_common>
+            <accessor source="#wall-Normal0-array" count="36" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="wall-UV0">
+          <float_array id="wall-UV0-array" count="48">
+0.000000 -0.000000
+1.000000 -0.000000
+1.000000 1.000000
+0.000000 1.000000
+0.036890 0.001992
+0.038084 0.001992
+0.038084 0.016542
+0.036890 0.016542
+0.044213 0.001992
+0.045407 0.001992
+0.045407 0.016542
+0.044213 0.016542
+0.000091 0.998008
+0.000091 0.001992
+0.001285 0.001992
+0.001285 0.998008
+0.029567 0.998008
+0.029567 0.001992
+0.030760 0.001992
+0.030760 0.998008
+0.007597 0.998008
+0.007597 0.001992
+0.022147 0.001992
+0.022147 0.998008
+</float_array>
+          <technique_common>
+            <accessor source="#wall-UV0-array" count="24" stride="2">
+              <param name="S" type="float"/>
+              <param name="T" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <vertices id="wall-VERTEX">
+          <input semantic="POSITION" source="#wall-POSITION"/>
+        </vertices>
+        <triangles count="2" material="wall1"><input semantic="VERTEX" offset="0" source="#wall-VERTEX"/><input semantic="NORMAL" offset="1" source="#wall-Normal0"/><input semantic="TEXCOORD" offset="2" set="0" source="#wall-UV0"/><p> 3 0 2 2 1 3 0 2 0 3 3 2 0 4 0 1 5 1</p></triangles>
+        <triangles count="10" material="bady"><input semantic="VERTEX" offset="0" source="#wall-VERTEX"/><input semantic="NORMAL" offset="1" source="#wall-Normal0"/><input semantic="TEXCOORD" offset="2" set="0" source="#wall-UV0"/><p> 2 6 12 3 7 13 5 8 14 2 9 12 5 10 14 4 11 15 7 12 22 6 13 23 4 14 20 7 15 22 4 16 20 5 17 21 1 18 18 0 19 19 6 20 16 1 21 18 6 22 16 7 23 17 7 24 5 5 25 6 1 26 4 3 27 7 1 28 4 5 29 6 2 30 10 6 31 8 0 32 9 6 33 8 2 34 10 4 35 11</p></triangles>
+      </mesh>
+    </geometry>
+  </library_geometries>
+  <library_visual_scenes>
+    <visual_scene id="wall" name="wall">
+      <node name="wall" id="wall" sid="wall"><matrix sid="matrix">0.500000 0.000000 0.000000 12.535750 0.000000 1.000000 0.000000 1.865532 0.000000 0.000000 1.000000 -0.392819 0.000000 0.000000 0.000000 1.000000</matrix><instance_geometry url="#wall-lib"><bind_material><technique_common><instance_material symbol="wall1" target="#wall1"/><instance_material symbol="bady" target="#bady"/></technique_common></bind_material></instance_geometry><extra><technique profile="FCOLLADA"><visibility>1.000000</visibility></technique></extra></node>
+      <extra><technique profile="MAX3D"><frame_rate>24.000000</frame_rate></technique><technique profile="FCOLLADA"><start_time>0.041667</start_time><end_time>8.333333</end_time></technique></extra>
+    </visual_scene>
+  </library_visual_scenes>
+  <scene>
+    <instance_visual_scene url="#wall"></instance_visual_scene>
+  </scene>
+</COLLADA>
