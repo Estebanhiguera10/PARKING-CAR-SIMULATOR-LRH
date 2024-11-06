@@ -64,11 +64,11 @@
     <Analyzer Include="C:\Program Files\Unity\Hub\Editor\2022.3.43f1\Editor\Data\Tools\Unity.SourceGenerators\Unity.Properties.SourceGenerator.dll" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets\SCRIPTS\Common\Editor\FieldFinder.cs" />
     <Compile Include="Assets\BusParking2\Standard Assets\Kino\Bloom\Editor\BloomEditor.cs" />
-    <Compile Include="Assets\BusParking2\Scripts\PostEffects\DOF\Editor\DepthOfFieldMobileEditor.cs" />
-    <Compile Include="Assets\BusParking2\Scripts\PostEffects\Common\Editor\EditorGUIHelper.cs" />
-    <Compile Include="Assets\BusParking2\Scripts\PostEffects\Common\Editor\FieldFinder.cs" />
-    <Compile Include="Assets\BusParking2\Scripts\PostEffects\Common\Editor\MinDrawer.cs" />
+    <Compile Include="Assets\SCRIPTS\PostEffects\DOF\Editor\DepthOfFieldMobileEditor.cs" />
+    <Compile Include="Assets\SCRIPTS\Common\Editor\EditorGUIHelper.cs" />
+    <Compile Include="Assets\SCRIPTS\Common\Editor\MinDrawer.cs" />
     <Compile Include="Assets\BusParking2\Editor\ALIyerEdonAssets.cs" />
     <Compile Include="Assets\BusParking2\Editor\ParkingManagerEditor.cs" />
     <Compile Include="Assets\BusParking2\Standard Assets\Kino\Bloom\Editor\BloomGraphDrawer.cs" />

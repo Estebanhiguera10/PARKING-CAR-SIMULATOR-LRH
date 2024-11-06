@@ -382,12 +382,12 @@
 "Assets/BusParking2/Editor/ALIyerEdonAssets.cs"
 "Assets/BusParking2/Editor/CarSelectEditor.cs"
 "Assets/BusParking2/Editor/ParkingManagerEditor.cs"
-"Assets/BusParking2/Scripts/PostEffects/Common/Editor/EditorGUIHelper.cs"
-"Assets/BusParking2/Scripts/PostEffects/Common/Editor/FieldFinder.cs"
-"Assets/BusParking2/Scripts/PostEffects/Common/Editor/MinDrawer.cs"
-"Assets/BusParking2/Scripts/PostEffects/DOF/Editor/DepthOfFieldMobileEditor.cs"
 "Assets/BusParking2/Standard Assets/Kino/Bloom/Editor/BloomEditor.cs"
 "Assets/BusParking2/Standard Assets/Kino/Bloom/Editor/BloomGraphDrawer.cs"
+"Assets/SCRIPTS/Common/Editor/EditorGUIHelper.cs"
+"Assets/SCRIPTS/Common/Editor/FieldFinder.cs"
+"Assets/SCRIPTS/Common/Editor/MinDrawer.cs"
+"Assets/SCRIPTS/PostEffects/DOF/Editor/DepthOfFieldMobileEditor.cs"
 -langversion:9.0
 /deterministic
 /optimize+
